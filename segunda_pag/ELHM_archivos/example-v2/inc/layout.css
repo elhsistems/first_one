@@ -1,0 +1,17 @@
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+
+#sitewrapper {
+	position:relative;
+	left:265px;
+	top:-30px;
+	width: 300px;
+	height:auto;
+	margin: 60px auto;
+	z-index:10002;
+}
+

@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+
+.reference {
+	text-align: center;
+	font-size: 75%;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	background-color: rgba(0, 215, 255, 1);
+	background: rgba(0, 215, 255, 1);
+}
+.wrapper{
+	width:1024px;
+	margin:auto;
+	position:relative;
+	background-color: rgba(255, 255, 255, 1);
+	background: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
+}
+.header{
+	position:relative;
+	left:35px;
+	top:10px;
+}
+.header img{
+	width:924px;
+	height:auto;
+	margin-left:15px;
+	margin-right:15px;
+}
+.botones{
+	position:relative;
+	top:20px;
+	left:50px;
+}
+.botones img{
+	width:150px;
+	height:auto;
+}
+.main{
+	position:relative;
+	left:50px;
+	top:-460px;
+	width:500px;
+	height:auto;
+}
+.cbp-qtcontent{
+	position:relative;
+}
+.cbp-qtcontent img{
+	width:100px;
+	height:auto;
+}
+.footer{
+	width:700px;
+	height:auto;
+	position:relative;
+	top:-10px;
+	z-index:900;
+}
+.footer img{
+	width:700px;
+	height:auto;
+	margin-left:160px;
+	margin-right:160px;
+}
+.escolares{
+	width:400px;
+	height:auto;
+	position:relative;
+	left:50px;
+	top:-700px;
+	z-index:1000;
+}
+.escolares img{
+	width:400px;
+	height:auto;
+	margin-top:20px;
+}
+.sociales{
+	width:293px;
+	height:auto;
+	position:relative;
+	left:610px;
+	top:-700px;
+	z-index:1001;
+}
+.sociales img{
+	margin-left:31px;
+}
+
+<!-- Estilos del slider -->
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.contenido{
+	height:810px;
+	width:auto;
+}
+.mapa{
+	width:500px;
+	height:300px;
+	z-index:10000;
+	position:relative;
+	top:-760px;
+	left:60px;
+}

@@ -1,0 +1,636 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face{
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+/*--- mio ---*/
+.directorio{
+	padding-left:60px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	width:560px;
+	height:500px;
+	overflow:scroll;
+	position:relative;
+	top:-480px;
+	left:280px;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);;
+	color: #fff;
+}
+
+.cajas-not {
+	padding-left: 3%;
+	}
+	
+.cajas-proyectos {
+	width: 30%;
+	float: left;
+	padding-top: 0px;
+	margin-right: 3%;
+	border-top-width: 1px;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #AFBD56;
+	border-right-color: #AFBD56;
+	border-bottom-color: #AFBD56;
+	border-left-color: #AFBD56;
+	background-image: none;
+	height: 30%;
+	}
+/*--- mio ---*/
+
+.reference {
+	text-align: center;
+	font-size: 75%;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	background-color:
+	background-color: rgba(0, 215, 255, 1);
+	background: rgba(0, 215, 255, 1);
+}
+.wrapper{
+	width:1024px;
+	margin:auto;
+	position:relative;
+	background-color: rgba(255, 255, 255, 1);
+	background: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
+}
+.header{
+	margin:auto;
+	position:relative;
+	left:35px;
+	top:10px;
+}
+.header img{
+	width:924px;
+	height:auto;
+	margin-left:15px;
+	margin-right:15px;
+}
+.botones{
+	position:relative;
+	top:20px;
+	left:50px;
+	z-index:1000000;
+}
+.botones img{
+	width:150px;
+	height:auto;
+}
+.main{
+	position:relative;
+	left:50px;
+	top:50px;
+	width:500px;
+	height:auto;
+}
+.cbp-qtcontent{
+	position:relative;
+}
+.cbp-qtcontent img{
+	width:100px;
+	height:auto;
+}
+.footer{
+	position:relative;
+	top:-10px;
+	z-index:400;
+}
+.footer img{
+	width:700px;
+	height:auto;
+	margin-left:160px;
+	margin-right:160px;
+}
+.sociales{
+	width:220px;
+	height:auto;
+	position:relative;
+	left:50px;
+	top:100px;
+	z-index:1000;
+}
+.circulos{
+	width:90px;
+	height:auto;
+	position:relative;
+	left:880px;
+	top:-70px;
+	z-index:1000004;
+}
+.circulos img{
+	width:90px;
+	height:auto;
+	margin-top:20px;
+}
+.servicios{
+	width:800px;
+	height:auto;
+	position:relative;
+	top:-480px;
+	left:220px;
+	z-index:10000;
+}
+.servicios img{
+	margin-left:50px;
+	width:260px;
+	height:auto;
+}
+.historia{
+	position:relative;
+	top:-480px;
+	left:270px;
+	width:560px;
+	height:500px;
+	color:#000;
+	font-size:12px;
+	font-weight:100;
+	padding-right:20px;
+	overflow:scroll;
+}
+.escuelal{
+	position:relative;
+	top:-480px;
+	left:270px;
+	width:560px;
+	height:500px;
+	color:#000;
+	font-size:12px;
+	font-weight:100;
+	padding-right:20px;
+	overflow:scroll;
+}
+.hospitall{
+	position:relative;
+	top:-480px;
+	left:270px;
+	width:560px;
+	height:500px;
+	color:#000;
+	font-size:12px;
+	font-weight:100;
+	padding-right:20px;
+	overflow:scroll;
+}
+.patronato{
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	width:560px;
+	height:500px;
+	overflow:scroll;
+	position:relative;
+	top:-480px;
+	left:280px;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	color: #fff;
+}
+.contenido{
+	height:610px;
+	width:auto;
+	position:relative;
+}
+
+.contacto{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:360px;
+	width:400px;
+	height:400px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+}
+
+.conmemoracion{
+	text-align:center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.listas{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+}
+
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.comite{
+	text-align: ;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+
+.ecos{
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+.conciertos{
+	text-align:center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+.resenaexpo{
+	text-align:center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+.congresos{
+	text-align:center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+
+.drfernando{
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+
+.precongreso{
+	text-align:center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+
+.galeria{
+	text-align:center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+
+.invnacionales{
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+
+.invinternacionales{
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+
+.imagenecos{
+	text-align:center;
+}
+
+.enfermeria{
+	text-align: center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+.enfermeria img{
+	position:relative;
+	width:400px;
+	height:auto;
+}
+
+.medico{
+	text-align: center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+.medico img{
+	position:relative;
+	width:400px;
+	height:auto;
+}
+
+.convocatoria{
+	text-align: center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+.convocatoria img{
+	position:relative;
+	width:400px;
+	height:auto;
+}
+
+.botonescontacto{
+	position:relative;
+	left:00px;
+	top:10px;
+}
+.mailing{
+	position:relative;
+}
+.mailing img{
+	width:80px;
+	height:auto;
+}
+.floatizq{
+	float:left;
+	padding-right:20px;
+}
+.talleressem{
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
+.mascotas{
+	text-align:center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	position:relative;
+	top:-480px;
+	left:260px;
+	width:600px;
+	height:500px;
+	color:#fff;
+	border:none 0px #000000;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	background-color: rgba(0, 26, 68, 1);
+	background: rgba(0, 26, 68, 1);
+	overflow:scroll;
+}
